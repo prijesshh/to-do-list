@@ -1,2 +1,3 @@
-▫phy
-☑chem
+▫phy 
+☑chem assign
+▫math assign

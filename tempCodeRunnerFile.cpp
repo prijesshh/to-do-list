@@ -289,10 +289,6 @@ class del:public task
                 cin>>password;
                 cout<<"Re-enter your password:"<<endl;
                 cin>>check;
-                if(password!=check)
-                {
-                    cout<<"Password didn't match."<<endl;
-                }
             }while(password!=check);
             writetopassword(password);
             cout<<"Password sucessfully set."<<endl;
@@ -345,7 +341,6 @@ class del:public task
                     else
                     {
                         file.close();//file write mmode ma kholne bittikai close=clears file
-                        cout<<"Password sucessfully removed"<<endl;
                     }
                 }
             }
@@ -475,7 +470,6 @@ if(a.notempty())
 
         case 9:
         {
-            cout<<endl;
             bool forpassword=a.notempty();
             if(!forpassword)//forpassword is true if not empty
             {
@@ -528,7 +522,6 @@ if(a.notempty())
                 cout<<"Invalid choice."<<endl;
                }
             }
-            break;
         }
 
         case 10:
